@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="107.37500000000001" y="258.0">App</node>
+    <node x="49.37592592592594" y="0.0">Handler</node>
+    <node x="0.0" y="172.0">EventDispatcher</node>
+    <node x="83.58055555555556" y="86.0">Events</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Events" target="Handler">
+      <point x="-26.5" y="-18.0" />
+      <point x="110.08055555555556" y="66.0" />
+      <point x="105.87592592592594" y="66.0" />
+      <point x="0.0" y="18.0" />
+    </edge>
+    <edge source="App" target="EventDispatcher">
+      <point x="-33.0" y="-18.0" />
+      <point x="118.37500000000001" y="238.0" />
+      <point x="41.75" y="238.0" />
+      <point x="-41.75" y="18.0" />
+    </edge>
+    <edge source="App" target="Events">
+      <point x="11.0" y="-18.0" />
+      <point x="162.375" y="228.0" />
+      <point x="185.71342592592595" y="228.0" />
+      <point x="185.71342592592595" y="147.0" />
+      <point x="171.9138888888889" y="147.0" />
+      <point x="35.33333333333334" y="18.0" />
+    </edge>
+    <edge source="EventDispatcher" target="Events">
+      <point x="20.875" y="-18.0" />
+      <point x="104.375" y="147.0" />
+      <point x="101.24722222222222" y="147.0" />
+      <point x="-35.33333333333334" y="18.0" />
+    </edge>
+    <edge source="Handler" target="Events">
+      <point x="22.599999999999994" y="18.0" />
+      <point x="128.47592592592594" y="66.0" />
+      <point x="163.08055555555558" y="66.0" />
+      <point x="26.5" y="-18.0" />
+    </edge>
+    <edge source="App" target="Handler">
+      <point x="33.0" y="-18.0" />
+      <point x="184.375" y="238.0" />
+      <point x="205.66666666666666" y="238.0" />
+      <point x="205.66666666666666" y="56.0" />
+      <point x="151.07592592592593" y="56.0" />
+      <point x="45.19999999999999" y="18.0" />
+    </edge>
+    <edge source="EventDispatcher" target="Handler">
+      <point x="-62.625" y="-18.0" />
+      <point x="20.875" y="147.0" />
+      <point x="54.35925925925926" y="147.0" />
+      <point x="54.35925925925926" y="56.0" />
+      <point x="60.67592592592594" y="56.0" />
+      <point x="-45.2" y="18.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.211282899349235" x="228.71517627844287" y="151.20734264555662" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
